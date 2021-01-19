@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setTextView();
     }
 
-    private void setTextView() {
+    public void setTextView() {
         textView.setText(getResources().getString(R.string.welcome));
     }
 }
